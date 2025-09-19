@@ -60,8 +60,3 @@ python index.py
 * pagination doesn't tell you how many records or pages it has and docs doesn't give eny hints about what would happen at the end so i just use my best guess the there won't be next page pointers there
 * day end is calculated by UTC so it need to be run before that time zone switch to next day otherwise request would be for current day on the server with UTC time zone it should work fine. 
 * as i don't know nothing about eviremont it is hard to configure login or write a script acorningly so i've made only basic for further improvement if that would even be necesary as mentioned wraper might handle all the stderr output properly
-
-## Used Guidlines
-
-* https://github.com/reef-technologies/handbook/blob/master/docs/maturity_levels.md
-* https://github.com/reef-technologies/handbook/blob/master/docs/release-process.md
